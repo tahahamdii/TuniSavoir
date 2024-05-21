@@ -7,8 +7,6 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-
 	],
   prefix: "",
   theme: {
@@ -20,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      borderWidth: {
+        'border': '1px',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
